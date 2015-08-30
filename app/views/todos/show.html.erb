@@ -1,0 +1,19 @@
+<p>
+  <strong>Title:</strong>
+  <%= @todo.title %>
+</p>
+
+<ul>
+  <% @todo.tasks.each do |task| %>
+    <li>
+      <%= form_for([@todo, task], remote: true, format: :json) do |f| %>
+        <%= f.check_box :completed, onchange: '$(this).submit()'  %>
+        <%= task.title %>
+      <% end %>
+    </li>
+  <% end %>
+</ul>
+
+<%= link_to 'Edit', edit_todo_path(@todo) %> |
+<%= link_to 'Back', todos_path %> |
+<%= link_to 'New Task', new_todo_task_path(@todo.id) %>
