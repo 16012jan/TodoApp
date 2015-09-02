@@ -1,20 +1,21 @@
-<h1>Listing Tasks</h1>
+
+<h1><span class="glyphicon glyphicon-ok" ></span> My Tasks</h1>
 
 <ul class="list-unstyled">
   <% @tasks.each do |task| %>
-    <li>
+    <li class="style">
       <%= form_for(task, remote: true, format: :json) do |f| %>
-        <%= f.check_box :completed, onchange: '$(this).submit()'  %>
+        <%= f.check_box :completed, onchange: '$(this).submit()'%>
         <%= task.title %>
-      <% end %>
-
-      <%= link_to 'Show', task_path(task), class: 'btn btn-default' %>
-      <%= link_to 'Edit', edit_task_path(task), class: 'btn btn-default' %>
-      <%= link_to 'Destroy', task_path(task), method: :delete, data: { confirm: 'Are you sure?' }, class: 'delete-task btn btn-default' %>
+        <%= link_to '', task_path(task), class: 'glyphicon glyphicon-eye-open'%>
+        <%= link_to '', edit_task_path(task), class: 'glyphicon glyphicon-pencil' %>
+        <%= link_to '', task_path(task), method: :delete, data: { confirm: 'Are you sure?' }, class: 'glyphicon glyphicon-trash' %>
     </li>
+     <% end %>
   <% end %>
 </ul>
 
 <br>
 
-<%= link_to 'New Task', new_task_path %>
+<%= link_to 'New Task', new_task_path, class: 'btn btn-success ' %>
+     

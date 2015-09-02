@@ -1,10 +1,36 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-// body {
-//   background-color: #e74c3c;
-// }
+body { 
+  background: url(20964491.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
-// h1 {
-//   color: white;
-// }
+h1 {
+  color: white;
+}
+.list-unstyled{
+  display: block-inline;
+}
+.strike {
+  text-decoration: line-through;
+}
+
+.well {
+   background-color: rgba(245, 245, 245, 0.4);
+}
+
+.style {
+
+ height: 50px;
+ font-size: 20px;
+ border-bottom: dotted white;
+ margin-bottom:15px;
+
+
+  
+}
+

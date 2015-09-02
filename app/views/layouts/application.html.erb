@@ -7,12 +7,26 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <div class="container">
-    <div class="row">
-      <%= flash_messages %>
+ 
+    <% if user_signed_in? %>
+  <%= link_to('Log out', destroy_user_session_path, :method => :delete) %>        
+<% else %>
+  <%= link_to('Log in', new_user_session_path)  %>  
+<% end %>
 
-      <%= yield %>
-    </div><!--row-->
-  </div><!--container-->
+<div class="container">
+  <div class="row">
+    <div class="col-xs-6 col-md-4">
+      <div class="well">
+
+     <!-- <%= flash_messages %>-->
+
+
+         <%= yield %>
+      </div><!--row-->
+    </div>
+  </div><!--row-->
+</div><!--container-->
+
 </body>
 </html>

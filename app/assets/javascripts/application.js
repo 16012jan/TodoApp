@@ -15,3 +15,11 @@
 //= require turbolinks
 //= require bootstrap-sprockets
 //= require_tree .
+$('#hover-task').hover(
+    function(){
+        $('#edit').hide();
+},
+    function(){
+      $('#edit').show();
+    }
+)
