@@ -15,11 +15,22 @@
 //= require turbolinks
 //= require bootstrap-sprockets
 //= require_tree .
-$('#hover-task').hover(
-    function(){
-        $('#edit').hide();
-},
-    function(){
-      $('#edit').show();
-    }
-)
+
+// $(function() {   
+//   $(".nonstyle").mouseover(function(){
+//     $(".hiden").fadeIn("fast");
+//   })
+//     $(".nonstyle").mouseout(function(){
+//   $(".hiden").delay(3000).fadeOut("medium");
+//   });
+// })
+
+$(function() {
+  $(".style").mouseover(function(){
+    $(this).find(".hiden").show("fast");
+  })
+   $(".style").mouseleave(function(){
+    $(this).find(".hiden").hide("fast");
+  })
+});
+

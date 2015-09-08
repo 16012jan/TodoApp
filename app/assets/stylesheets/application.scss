@@ -10,6 +10,8 @@ body {
 }
 
 h1 {
+  font-family: 'Yesteryear', cursive;
+  font-size: 50px;
   color: white;
 }
 .list-unstyled{
@@ -20,7 +22,7 @@ h1 {
 }
 
 .well {
-   background-color: rgba(245, 245, 245, 0.4);
+   background-color: rgba(245, 245, 245, 0.6);
 }
 
 .style {
@@ -29,8 +31,29 @@ h1 {
  font-size: 20px;
  border-bottom: dotted white;
  margin-bottom:15px;
+}
 
+.nonstyle{
+  text-decoration: none;
+  color:white;
+}
 
+.nonstyle:hover{
+  text-decoration: none;
+  cursor:pointer;
+    
+}
+
+span.glyphicon.glyphicon-ok {
+  font-size: 30px;
+}
+
+.hiden{
+  display: none;
+  float:right;
+  font-size:18px;
   
 }
+
+
 

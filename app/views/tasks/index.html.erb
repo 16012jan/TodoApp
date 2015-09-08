@@ -5,11 +5,13 @@
   <% @tasks.each do |task| %>
     <li class="style">
       <%= form_for(task, remote: true, format: :json) do |f| %>
-        <%= f.check_box :completed, onchange: '$(this).submit()'%>
-        <%= task.title %>
+        <%= f.check_box :completed, onchange: '$(this.form).submit()'%>
+        <%= link_to task.title, task, class: 'nonstyle' %>
+        <span class="hiden">
         <%= link_to '', task_path(task), class: 'glyphicon glyphicon-eye-open'%>
         <%= link_to '', edit_task_path(task), class: 'glyphicon glyphicon-pencil' %>
         <%= link_to '', task_path(task), method: :delete, data: { confirm: 'Are you sure?' }, class: 'glyphicon glyphicon-trash' %>
+        </span>
     </li>
      <% end %>
   <% end %>
