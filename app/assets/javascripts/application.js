@@ -16,21 +16,18 @@
 //= require bootstrap-sprockets
 //= require_tree .
 
-// $(function() {   
-//   $(".nonstyle").mouseover(function(){
-//     $(".hiden").fadeIn("fast");
-//   })
-//     $(".nonstyle").mouseout(function(){
-//   $(".hiden").delay(3000).fadeOut("medium");
-//   });
-// })
+
 
 $(function() {
-  $(".style").mouseover(function(){
+  $(".style").on('mouseover', function(){
     $(this).find(".hiden").show("fast");
   })
-   $(".style").mouseleave(function(){
+   $(".style").on('mouseleave', function(){
     $(this).find(".hiden").hide("fast");
   })
 });
 
+
+function complete() {
+  $(this).submit().next().toggleClass("strike"); 
+}; 

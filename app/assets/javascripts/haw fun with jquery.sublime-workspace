@@ -1,0 +1,550 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"cla",
+				"className"
+			],
+			[
+				"simon",
+				"simonPic"
+			],
+			[
+				"num",
+				"numOne"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"recipe",
+				"recipe_params"
+			],
+			[
+				"pos",
+				"post_path"
+			],
+			[
+				"par",
+				"params"
+			],
+			[
+				"todo",
+				"todo_item"
+			],
+			[
+				"be",
+				"belongs_to"
+			],
+			[
+				"su",
+				"success"
+			],
+			[
+				"assert",
+				"assert_response"
+			],
+			[
+				"ass",
+				"assert_select"
+			],
+			[
+				"co",
+				"condition"
+			],
+			[
+				"E",
+				"Engine"
+			],
+			[
+				"pass",
+				"password_confirmation"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"bu",
+				"button	Tag"
+			],
+			[
+				"line",
+				"line_items"
+			],
+			[
+				"line_",
+				"line_item"
+			],
+			[
+				"cart",
+				"cart_id"
+			],
+			[
+				"bb",
+				"border-bottom"
+			],
+			[
+				"na",
+				"name"
+			],
+			[
+				"new",
+				"new_product"
+			],
+			[
+				"up",
+				"update"
+			],
+			[
+				"do",
+				"do_plus"
+			],
+			[
+				"re",
+				"resources"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/igor/Desktop/bootstrap3/Learn/index JQ.html",
+			"settings":
+			{
+				"buffer_size": 601,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/igor/Desktop/bootstrap3/Learn/myJquerj.js",
+			"settings":
+			{
+				"buffer_size": 40,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 369.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: I",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/igor/TodoApp/app/views/tasks/index.html.erb",
+		"/home/igor/TodoApp/app/assets/javascripts/haw fun with jquery",
+		"/home/igor/Desktop/bootstrap3/Learn/index JQ.html",
+		"/home/igor/TodoApp/app/controllers/tasks_controller.rb",
+		"/home/igor/TodoApp/app/models/task.rb",
+		"/home/igor/TodoApp/config/routes.rb",
+		"/home/igor/TodoApp/app/assets/javascripts/application.js",
+		"/home/igor/Desktop/bootstrap3/Learn/index todo.html",
+		"/home/igor/Desktop/bootstrap3/index todo.html",
+		"/home/igor/Desktop/bootstrap3/event.js",
+		"/home/igor/Desktop/bootstrap3/index pic.html",
+		"/home/igor/Desktop/bootstrap3/global.css",
+		"/home/igor/Desktop/bootstrap3/js.html",
+		"/home/igor/Desktop/bootstrap3/main.css",
+		"/home/igor/Desktop/bootstrap3/codelearn/index.html",
+		"/home/igor/Desktop/bootstrap3/codelearn/css/styles.css",
+		"/home/igor/programming/ChildRuby/recipe-box/app/controllers/application_controller.rb",
+		"/home/igor/programming/ChildRuby/recipe-box/app/views/recipes/index.html.haml",
+		"/home/igor/Desktop/bootstrap3/codelearn/styles.css",
+		"/home/igor/Desktop/bootstrap3/index1.html",
+		"/home/igor/Desktop/bootstrap3/index.htm",
+		"/home/igor/Desktop/bootstrap3/read.htm",
+		"/home/igor/Desktop/bootstrap3/css/styles.css",
+		"/home/igor/Desktop/bootstrap3/styles.css",
+		"/home/igor/Desktop/bootstrap3/style.css",
+		"/home/igor/programming/ChildRuby/recipe_box-master/Gemfile",
+		"/home/igor/programming/ChildRuby/recipe-box/app/controllers/recipes_controller.rb",
+		"/home/igor/programming/ChildRuby/recipe-box/app/views/recipes/show.html.haml",
+		"/home/igor/programming/ChildRuby/recipe-box/app/views/recipes/_form.html.haml",
+		"/home/igor/programming/ChildRuby/recipe-box/db/migrate/20150905124513_add_attachment_image_to_recipes.rb",
+		"/home/igor/programming/ChildRuby/recipe-box/app/models/user.rb",
+		"/home/igor/programming/ChildRuby/recipe-box/app/models/recipe.rb",
+		"/home/igor/programming/ChildRuby/recipe-box/config/environments/development.rb",
+		"/home/igor/programming/ChildRuby/recipe-box/app/views/layouts/application.html.haml",
+		"/home/igor/programming/ChildRuby/recipe-box/Gemfile",
+		"/home/igor/programming/ChildRuby/recipe-box/app/views/recipes/_ingredient_fields.html.haml",
+		"/home/igor/programming/ChildRuby/recipe-box/app/views/recipes/_direction_fields.html.haml",
+		"/home/igor/programming/ChildRuby/recipe-box/app/views/recipes/_ingredients_fields.html.haml",
+		"/home/igor/programming/ChildRuby/recipe-box/app/assets/javascripts/application.js",
+		"/home/igor/programming/ChildRuby/recipe-box/app/assets/stylesheets/application.css.scss",
+		"/home/igor/programming/ChildRuby/recipe-box/app/views/recipes/edit.html.haml",
+		"/home/igor/programming/ChildRuby/recipe-box/app/views/recipes/new.html.haml",
+		"/home/igor/programming/ChildRuby/recipe-box/config/routes.rb",
+		"/home/igor/programming/BlogApp/config/environments/development.rb",
+		"/home/igor/programming/BlogApp/app/views/devise/sessions/new.html.erb",
+		"/home/igor/programming/BlogApp/app/views/devise/registrations/new.html.erb",
+		"/home/igor/programming/BlogApp/Gemfile",
+		"/home/igor/programming/BlogApp/app/views/posts/show.html.erb",
+		"/home/igor/programming/BlogApp/app/views/comments/_comment.html.erb",
+		"/home/igor/programming/BlogApp/app/controllers/comments_controller.rb",
+		"/home/igor/programming/BlogApp/app/models/post.rb",
+		"/home/igor/programming/BlogApp/app/controllers/pages_controller.rb",
+		"/home/igor/programming/BlogApp/config/routes.rb",
+		"/home/igor/programming/BlogApp/app/views/pages/about.html.erb",
+		"/home/igor/programming/BlogApp/app/views/layouts/application.html.erb",
+		"/home/igor/programming/BlogApp/app/views/comments/_form.html.erb",
+		"/home/igor/programming/BlogApp/app/controllers/posts_controller.rb",
+		"/home/igor/programming/BlogApp/app/views/posts/new.html.erb",
+		"/home/igor/programming/BlogApp/app/views/posts/_form.html.erb",
+		"/home/igor/programming/BlogApp/app/views/posts/edit.html.erb",
+		"/home/igor/programming/BlogApp/app/assets/stylesheets/application.css.scss",
+		"/home/igor/programming/BlogApp/app/views/posts/index.html.erb",
+		"/home/igor/TodoApp/app/views/devise/passwords/new.html.erb",
+		"/home/igor/TodoApp/app/views/devise/confirmations/new.html.erb",
+		"/home/igor/TodoApp/app/views/devise/unlocks/new.html.erb",
+		"/home/igor/TodoApp/app/views/devise/registrations/new.html.erb",
+		"/home/igor/TodoApp/app/views/devise/sessions/new.html.erb",
+		"/home/igor/TodoApp/app/assets/stylesheets/application.scss",
+		"/home/igor/TodoApp/app/views/layouts/application.html.erb",
+		"/home/igor/programming/BlogApp/app/assets/stylesheets/_normalize.css.scss",
+		"/home/igor/programming/QuickApp/config/routes.rb",
+		"/home/igor/programming/Todo-App-master/app/views/todo_items/_form.html.erb",
+		"/home/igor/programming/Todo-App-master/app/views/todo_items/_todo_item.html.erb",
+		"/home/igor/TodoApp/app/views/tasks/new.html.erb",
+		"/home/igor/TodoApp/app/views/tasks/edit.html.erb",
+		"/home/igor/TodoApp/app/views/devise/registrations/edit.html.erb",
+		"/home/igor/programming/to_doo/app/assets/stylesheets/application.css",
+		"/home/igor/programming/Todo-App-master/app/assets/stylesheets/application.css.scss",
+		"/home/igor/TodoApp/app/views/tasks/_form.html.erb",
+		"/home/igor/programming/to_doo/app/assets/stylesheets/todos.scss",
+		"/home/igor/TodoApp/app/assets/javascripts/todos.coffee",
+		"/home/igor/programming/depot/config/routes.rb",
+		"/home/igor/programming/depot/app/views/line_items/index.html.erb",
+		"/home/igor/programming/depot/app/views/store/index.html.erb",
+		"/home/igor/programming/AppTodo/app/assets/stylesheets/application.scss",
+		"/home/igor/programming/AppTodo/app/views/todos/_form.html.erb",
+		"/home/igor/programming/AppTodo/app/views/todos/index.html.erb",
+		"/home/igor/programming/AppTodo/app/views/layouts/application.html.erb",
+		"/home/igor/programming/to_doo/app/views/todos/index.html.erb",
+		"/home/igor/programming/AppTodo/app/views/devise/registrations/new.html.erb",
+		"/home/igor/programming/AppTodo/app/models/todo.rb",
+		"/home/igor/programming/AppTodo/app/models/task.rb",
+		"/home/igor/programming/AppTodo/Gemfile",
+		"/home/igor/programming/AppTodo/app/assets/javascripts/application.js",
+		"/home/igor/programming/AppTodo/config/routes.rb",
+		"/home/igor/programming/AppTodo/db/migrate/20150828124836_devise_create_users.rb",
+		"/home/igor/programming/AppTodo/app/controllers/registrations_controller.rb",
+		"/home/igor/programming/AppTodo/app/controllers/todos_controller.rb",
+		"/home/igor/programming/AppTodo/config/application.rb",
+		"/home/igor/programming/AppTodo/app/models/user.rb",
+		"/home/igor/programming/AppTodo/app/controllers/application_controller.rb",
+		"/home/igor/programming/AppTodo/config/environments/development.rb",
+		"/home/igor/programming/Todo-App-master/app/views/layouts/application.html.erb",
+		"/home/igor/programming/AppTodo/app/views/todo_lists/index.html.erb",
+		"/home/igor/programming/AppTodo/app/controllers/todo_lists_controller.rb",
+		"/home/igor/programming/AppTodo/app/models/todo_list.rb",
+		"/home/igor/programming/AppTodo/db/migrate/20150827134822_devise_create_users.rb",
+		"/home/igor/programming/TodoApp/app/views/devise/registrations/edit.html.erb",
+		"/home/igor/programming/TodoApp/config/routes.rb",
+		"/home/igor/programming/TodoApp/config/environments/development.rb",
+		"/home/igor/programming/TodoApp/app/controllers/application_controller.rb",
+		"/home/igor/programming/TodoApp/Gemfile",
+		"/home/igor/programming/TodoApp/db/migrate/20150826204955_devise_create_users.rb",
+		"/home/igor/programming/TodoApp/app/models/user.rb",
+		"/home/igor/programming/TodoApp/app/views/layouts/application.html.erb",
+		"/home/igor/programming/sample_app/spec/spec_helper.rb",
+		"/home/igor/programming/sample_app/.rspec",
+		"/home/igor/programming/sample_app/Guardfile",
+		"/home/igor/programming/sample_app/Gemfile",
+		"/home/igor/programming/sample_app/config/routes.rb",
+		"/home/igor/programming/sample_app/app/views/static_pages/home.html.erb",
+		"/home/igor/programming/sample_app/app/views/layouts/application.html.erb",
+		"/home/igor/programming/sample_app/app/views/static_pages/help.html.erb",
+		"/home/igor/programming/sample_app/spec/requests/spec_helper.rb",
+		"/home/igor/programming/sample_app/spec/requests/static_pages_spec.rb",
+		"/home/igor/programming/sample_app/app/views/static_pages/about.html.erb",
+		"/home/igor/programming/sample_app/app/controllers/static_pages_controller.rb",
+		"/home/igor/programming/firs_app/app/models/user.rb"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/home/igor/programming/blog/app/views/comments",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			");\n",
+			"simon",
+			"});\n",
+			"simon",
+			"param",
+			">\n",
+			"<script src=\"//railsgirls.com/assets/bootstrap.js\"></script>",
+			"sasd"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/igor/Desktop/bootstrap3/Learn/index JQ.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 601,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/brogrammer.tmTheme",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/igor/Desktop/bootstrap3/Learn/myJquerj.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 40,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/brogrammer.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 118.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 179.0
+	},
+	"pinned_build_system": "",
+	"project": "haw fun with jquery",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"i",
+				"app/views/recipes/index.html.haml"
+			],
+			[
+				"cont",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"iamage",
+				"db/migrate/20150905124513_add_attachment_image_to_recipes.rb"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"form",
+				"app/views/recipes/_form.html.haml"
+			],
+			[
+				"con",
+				"app/controllers/recipes_controller.rb"
+			],
+			[
+				"apli",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"re",
+				"app/models/recipe.rb"
+			],
+			[
+				"reci",
+				"app/models/recipe.rb"
+			],
+			[
+				"view",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"post",
+				"app/controllers/posts_controller.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 320.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
